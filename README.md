@@ -57,6 +57,7 @@ The images used to train the Dustbin Waste Classifier were obtained from [Kaggle
 run the file main2.py 
 Point your webcam at the waste item you want to classify.
 
+![Image Alt Text]([images/your_image_file.png](https://github.com/sanidhya-p/Dustbin_wate_Classifier/blob/main/Wasteclassifier%20project%20img.png))
 
 
 ## Interpreting the Results
