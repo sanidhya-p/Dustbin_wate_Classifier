@@ -1,0 +1,5 @@
+0 Plastic
+1 Glass
+2 Cardboard
+3 Biological
+4 Paper
