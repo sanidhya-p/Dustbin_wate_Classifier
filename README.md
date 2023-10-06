@@ -23,8 +23,9 @@ The Dustbin Waste Classifier is a computer vision-based solution designed to ass
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  
+  - [Dataset](#Dataset)
 - [Usage](#usage)
+  - [Training](#Training) 
   - [Running the Classifier](#running-the-classifier)
   - [Interpreting the Results](#interpreting-the-results)
 
@@ -41,7 +42,16 @@ Before using the Dustbin Waste Classifier, ensure you have the following prerequ
 - cvzone
 - TensorFlow/Keras
 
+## Dataset
+
+The images used to train the Dustbin Waste Classifier were obtained from [Kaggle](https://www.kaggle.com/datasets/mostafaabla/garbage-classification). The original dataset includes 12 classes with nearly 500 images in each class. However, for our specific project, we selected a subset of 5 classes to train the model.
 ## Usage
+
+## Training
+- We used Google Teachable Machine, an online tool, to create and train our custom machine learning model. Teachable Machine allows for easy uploading of images, labeling, and training of models.
+- We provided labeled examples of waste images for each waste type to Teachable Machine. The platform automatically generated a model based on these examples, making it accessible and efficient for our project.
+- After successful training, we exported the trained model in Keras format (keras_model.h5) for integration into our Dustbin Waste Classifier.
+
 
 ## Running the Classifier
 run the file main.py 
